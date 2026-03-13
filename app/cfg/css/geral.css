@@ -1,0 +1,106 @@
+.lgex {
+    width: 1px;	
+    white-space: nowrap;
+}
+
+.logomarca_index {
+    position: relative;
+    width: 100%;
+    padding: 50px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.logomarca_index img {
+    width: 300px;
+}
+
+/* barra com input e botao na pagina */
+    .btn_topo_pag {
+        float: right;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 1px;
+        position: absolute;
+        top: 9px;
+        right: 15px;
+    }
+
+    .header_box_procurar {
+        width: 400px;
+        float: left;
+        padding-right: 3px;
+    }
+
+/* espaçamento do titulo da pagina */
+    .pad_conteudo {
+        padding: 20px;
+    }
+
+/* espaçamento da tabela de conteudo */
+    .pad_header {
+        padding-bottom: 10px;
+    }
+
+/* modal */
+    .modal iframe {
+        width: 100%;
+        height: 100px;	
+    }
+
+/* hacks sem seta input type number */
+    input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+/* formulario ajustes */
+    .input-group-addon {
+        background-color: #eeeeee !important;
+    }
+
+/* loading - inicio */
+    .loading {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/loading_fundo.png");
+        background-repeat: repeat;
+        z-index: 99999999 !important;
+        text-align: center;
+    }
+
+    .loading img {
+        margin: 50px;
+        max-width: 100px;
+    }
+
+    .loading p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+/* aviso */
+    .box_aviso {
+        position: fixed;
+        top: 45px;
+        left: 50%;
+        width: 420px;
+        margin-left: -210px;
+        height: 1px;
+        z-index: 99999999 !important;
+    }
+
+@media screen and (max-width: 1500px) and (min-width: 400px) {
+    .header_box_procurar {
+        width: 200px !important;
+    }
+}
