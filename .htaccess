@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# HTTPS
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.elevaenge.app.br/$1 [R,L]
+
+# API
+RewriteRule ^api/(.*)$ /app/api/$1.php [L]

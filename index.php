@@ -1,0 +1,1 @@
+<?php header("Location: https://www.elevaenge.app.br/app"); ?>
